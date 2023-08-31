@@ -28,6 +28,5 @@ fi
 # Export the needed vars
 export USER_CHOSEN PATH_ALL PATH_SCRIPT
 
-
 # Substitute the skeleton for the final file
 envsubst < "$PATH_ALL/$SKELETON_NAME" > "$PATH_ALL/$OUTPUT_NAME"

@@ -3,3 +3,6 @@
 
 # Not itself
 !.gitignore
+
+# All generated service files
+*.service
